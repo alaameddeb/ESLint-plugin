@@ -1,8 +1,8 @@
-var rule = require("../../../lib/rules/testRule.js"),
+var rule = require("../../../lib/rules/vue-instance-on-function.js"),
     RuleTester = require("eslint").RuleTester;
 
 var ruleTester = new RuleTester();
-ruleTester.run("no-full-fp-lib", rule, {
+ruleTester.run("vue-instance-on-function", rule, {
 
     valid: [
       "function test(){new Vue({})}"
