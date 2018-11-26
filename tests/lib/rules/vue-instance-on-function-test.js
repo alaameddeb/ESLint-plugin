@@ -5,7 +5,8 @@ var ruleTester = new RuleTester();
 ruleTester.run("vue-instance-on-function", rule, {
 
     valid: [
-      "function test(){new Vue({})}"
+      "function test(){new Vue({})}", 
+      "Vue.component()"
     ],
 
     invalid: [
