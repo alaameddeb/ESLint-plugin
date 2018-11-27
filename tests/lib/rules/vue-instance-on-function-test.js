@@ -13,7 +13,7 @@ ruleTester.run("vue-instance-on-function", rule, {
         {
           code: "new Vue({})",
           errors: [{
-              message: "Vue istance should be on a function",
+              message: "Vue instance should be on a function",
               type: "Identifier"
           }]
         }
